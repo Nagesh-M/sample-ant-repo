@@ -84,7 +84,7 @@
 			</structure>
 
 			<!-- to produce reports in different formats. -->
-			<html destdir="${result.report.dir}" />
+			<html destdir="${result.report.dir}/report.html" />
 			<csv destfile="${result.report.dir}/report.csv" />
 			<xml destfile="${result.report.dir}/report.xml" />
 		</jacoco:report>
